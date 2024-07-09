@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QMainWindow" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new/prefix1/desk.jpg);
+image: url(:/new/prefix1/paper.png);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>200</y>
+      <width>201</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 18pt &quot;Segoe UI&quot;;
+background-image: url(:/new/prefix1/paper.png);
+image: url(:/new/prefix1/C:/Users/panteaco/Downloads/Screenshot 2024-07-09 194846.png);
+color: rgb(7, 7, 7);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>200</y>
+      <width>231</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-image: url(:/new/prefix1/C:/Users/panteaco/Downloads/Screenshot 2024-07-09 194854.png);
+image: url(:/new/prefix1/C:/Users/panteaco/Downloads/Screenshot 2024-07-09 194854.png);
+font: 700 18pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>200</y>
+      <width>221</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+image: url(:/new/prefix1/C:/Users/panteaco/Downloads/Screenshot 2024-07-09 194903.png);
+background-image: url(:/new/prefix1/paper.png);
+font: 700 18pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>80</y>
+      <width>611</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+color: rgb(85, 0, 255);
+image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Username</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+color: rgb(85, 0, 255);
+image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>bordha</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+color: rgb(85, 0, 255);
+image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>bakhtha</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+color: rgb(85, 0, 255);
+background-color: rgb(85, 0, 255);
+image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>score</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+color: rgb(85, 0, 255);
+image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>drop</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>370</y>
+      <width>701</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+color: rgb(85, 0, 255);
+image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>                        VS BOT</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+color: rgb(85, 0, 255);
+image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>                       ONLINE</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+color: rgb(85, 0, 255);
+image: url(:/new/prefix1/C:/Users/panteaco/Downloads/2024-07-09_203745.png);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>             WITH FRIEND</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image - Copy.png</file>
+        <file>desk.jpg</file>
+        <file>paper.png</file>
+        <file>C:/Users/panteaco/Downloads/Screenshot 2024-07-09 194903.png</file>
+        <file>C:/Users/panteaco/Downloads/Screenshot 2024-07-09 194854.png</file>
+        <file>C:/Users/panteaco/Downloads/Screenshot 2024-07-09 194846.png</file>
+        <file>C:/Users/panteaco/Downloads/2024-07-09_203745.png</file>
+    </qresource>
+</RCC>
