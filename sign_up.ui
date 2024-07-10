@@ -40,7 +40,7 @@ image: url(:/new/prefix1/desk.jpg);</string>
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QLineEdit" name="lineEdit_3">
+      <widget class="QLineEdit" name="_fn">
        <property name="styleSheet">
         <string notr="true">background-color: rgb(255, 255, 255);</string>
        </property>
@@ -88,10 +88,10 @@ image: url(:/new/prefix1/desk.jpg);</string>
       </widget>
      </item>
      <item row="2" column="1">
-      <widget class="QLineEdit" name="lineEdit_4"/>
+      <widget class="QLineEdit" name="_un"/>
      </item>
      <item row="3" column="1">
-      <widget class="QLineEdit" name="lineEdit_5"/>
+      <widget class="QLineEdit" name="_ps"/>
      </item>
      <item row="4" column="0">
       <widget class="QLabel" name="label_5">
@@ -104,10 +104,10 @@ image: url(:/new/prefix1/desk.jpg);</string>
       </widget>
      </item>
      <item row="4" column="1">
-      <widget class="QLineEdit" name="lineEdit_6"/>
+      <widget class="QLineEdit" name="_em"/>
      </item>
      <item row="1" column="1">
-      <widget class="QLineEdit" name="lineEdit"/>
+      <widget class="QLineEdit" name="_ln"/>
      </item>
     </layout>
    </widget>
