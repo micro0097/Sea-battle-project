@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>20240710_191223.jpg</file>
+        <file>20240710_191452.jpg</file>
+        <file>20240710_191606.jpg</file>
+        <file>desk.jpg</file>
+        <file>image - Copy.png</file>
+        <file>image.png</file>
+        <file>paper.png</file>
+        <file>Screenshot 2024-07-09 194846.png</file>
+        <file>Screenshot 2024-07-09 194854.png</file>
+        <file>Screenshot 2024-07-09 194903.png</file>
+        <file>Screenshot 2024-07-10 134739.png</file>
+        <file>Screenshot 2024-07-10 171949.png</file>
+        <file>Screenshot 2024-07-10 220405.png</file>
+    </qresource>
+</RCC>
