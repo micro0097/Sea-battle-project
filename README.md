@@ -1,2 +1,6 @@
-Hello guys 
-Here we have edit forms in qt and anything you want
+Hello everybody
+This project was made with ❤ by Mohammadreza Mousavi & Alireza Karimian
+in this project we implement the Sea Battle game in new design and i think it is more intersting than the real game
+we use sqlite in this project for archiving data
+it designed with Qt designer and of course c++ codes
+thankyou everybody for sharing this file
