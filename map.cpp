@@ -1,6 +1,6 @@
 #include "map.h"
 #include "ui_map.h"
-#define UPB "E:\bigup.png"
+// #define UPB "E:\bigup.png"
 // #define DOWNB "E:\bigup.png"
 // #define Upm ":/new/prefix1/Screenshot 2024-07-10 185726.png"
 // #define Downm ":/new/prefix1/Screenshot 2024-07-10 185726.png"
@@ -18,17 +18,8 @@ Map::Map(QWidget *parent)
     , ui(new Ui::Map)
 {
     ui->setupUi(this);
-    this->setFixedSize(1100,577);
-    ui->graphicsView->setFixedSize(1100,571);
-    QGraphicsScene *s= new QGraphicsScene(this);
+    this->setFixedSize(1100,427);
 
-    bbig= new QGraphicsPixmapItem(QPixmap("C:/Users/TS/OneDrive/Desktop/Sea-battle-project-menuedits/bigup.png"));
-    // bmid= new QGraphicsPixmapItem(QPixmap(Upm));
-    // bsm= new QGraphicsPixmapItem(QPixmap(Ups));
-    s->addItem(bbig);
-    // s->addItem(bmid);
-    // s->addItem(bsm);
-    ui->graphicsView->setScene(s);
 }
 
 Map::~Map()
@@ -36,22 +27,9 @@ Map::~Map()
     delete ui;
 }
 
-// void Map::keyPressEvent(QKeyEvent *q)
-// {
-//     if(q->key()==Qt::Key_Up){
-//         bbig->setPixmap(QPixmap(UPB));
-//         bbig->moveBy(0,-5);
-//     }
-//     // if(q->key()==Qt::Key_Down){
-//     //     bbig->setPixmap(QPixmap(DOWNB));
-//     //     bbig->moveBy(0,5);
-//     // }
-//     // if(q->key()==Qt::Key_Left){
-//     //     bbig->setPixmap(QPixmap(Leftb));
-//     //     bbig->moveBy(-5,0);
-//     // }
-//     // if(q->key()==Qt::Key_Right){
-//     //     bbig->setPixmap(QPixmap(Rightb));
-//     //     bbig->moveBy(5,0);
-//     // }
-// }
+
+void Map::on_pushButton_clicked()
+{
+
+}
+
