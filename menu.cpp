@@ -15,3 +15,28 @@ Menu::~Menu()
 {
     delete ui;
 }
+
+
+void Menu::on_pushButton_clicked()
+{
+    Map *map= new Map();
+    this->close();
+    map->show();
+}
+
+
+void Menu::on_pushButton_2_clicked()
+{
+    Map *map= new Map();
+    this->close();
+    map->show();
+}
+
+
+void Menu::on_pushButton_3_clicked()
+{
+    Map *map= new Map();
+    this->close();
+    map->show();
+}
+

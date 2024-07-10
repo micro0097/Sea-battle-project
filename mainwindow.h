@@ -4,8 +4,8 @@
 #include <QMainWindow>
 #include <QLineEdit>
 #include "sign_up.h"
-#include "menu.h"
 #include "dialog.h"
+#include "menu.h"
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;

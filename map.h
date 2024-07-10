@@ -2,7 +2,8 @@
 #define MAP_H
 
 #include <QMainWindow>
-
+#include <QKeyEvent>
+#include <QGraphicsPixmapItem>
 namespace Ui {
 class Map;
 }
@@ -17,6 +18,10 @@ public:
 
 private:
     Ui::Map *ui;
+    // void keyPressEvent(QKeyEvent *q);
+    QGraphicsPixmapItem *bbig;
+    // QGraphicsPixmapItem *bmid;
+    // QGraphicsPixmapItem *bsm;
 };
 
 #endif // MAP_H

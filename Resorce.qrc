@@ -10,5 +10,16 @@
         <file>1x1-0000ff7f.png</file>
         <file>photo_2024-07-10_15-28-59.jpg</file>
         <file>Screenshot 2024-07-10 171949.png</file>
+        <file>maaap.png</file>
+        <file>Screenshot 2024-07-10 185616.png</file>
+        <file>Screenshot 2024-07-10 185726.png</file>
+        <file>Screenshot 2024-07-10 185751.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>20240710_191223.jpg</file>
+        <file>20240710_191452.jpg</file>
+        <file>20240710_191606.jpg</file>
+        <file>image.png</file>
+        <file>Screenshot 2024-07-10 220405.png</file>
     </qresource>
 </RCC>
