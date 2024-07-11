@@ -6,6 +6,8 @@
 #include <QSqlQueryModel>
 #include <QSqlError>
 #include <QMessageBox>
+#include <QDir>
+#include <QCoreApplication>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -21,9 +23,9 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->pushButton_4,SIGNAL(clicked()),menu,SLOT(show()));
     Dialog *dialog= new Dialog;
     connect(ui->pushButton_6,SIGNAL(clicked()),dialog,SLOT(show()));
-    QSqlDatabase db;
-    db=QSqlDatabase ::addDatabase("QSQLITE");
-    db.setDatabaseName("d:\\user.db");
+    QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
+    QString databasePath = QDir(QCoreApplication::applicationDirPath()).filePath("user.db");
+    db.setDatabaseName(databasePath);
     db.open();
     QSqlQuery query;
     if (!query.exec("CREATE TABLE IF NOT EXISTS users ("
@@ -53,10 +55,8 @@ void MainWindow::on_pushButton_4_clicked()
     _username = ui->lineEdit_4->text();
     _password = ui->lineEdit_3->text();
 
-    // Check if the username and password exist in the database
     if (isValidUser(_username, _password))
     {
-        // Login successful, do something here (e.g., open the main application window)
         QMessageBox::information(this, "Login Successful", "Welcome, " + _username + "!");
     }
     else
