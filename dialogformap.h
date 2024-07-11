@@ -16,7 +16,7 @@ public:
     ~Dialogformap();
 
 private slots:
-    void on_buttonBox_accepted();
+    void on_buttonBox_2_accepted();
 
 signals:
     void setcoordinate(int,int);

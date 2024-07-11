@@ -31,12 +31,13 @@ public:
     QPushButton *pushButton_2;
     QPushButton *pushButton_12;
     QPushButton *pushButton_5;
+    QPushButton *pushButton_4;
 
     void setupUi(QMainWindow *Map)
     {
         if (Map->objectName().isEmpty())
             Map->setObjectName("Map");
-        Map->resize(1100, 427);
+        Map->resize(1133, 432);
         Map->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/image.png);"));
         centralwidget = new QWidget(Map);
         centralwidget->setObjectName("centralwidget");
@@ -90,6 +91,11 @@ public:
         pushButton_5->setGeometry(QRect(960, 250, 81, 41));
         pushButton_5->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/20240710_191606.jpg);"));
         pushButton_5->setFlat(true);
+        pushButton_4 = new QPushButton(centralwidget);
+        pushButton_4->setObjectName("pushButton_4");
+        pushButton_4->setGeometry(QRect(940, 370, 151, 51));
+        pushButton_4->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/Screenshot 2024-07-11 203927.png);"));
+        pushButton_4->setFlat(true);
         Map->setCentralWidget(centralwidget);
 
         retranslateUi(Map);
@@ -110,6 +116,7 @@ public:
         pushButton_2->setText(QString());
         pushButton_12->setText(QString());
         pushButton_5->setText(QString());
+        pushButton_4->setText(QString());
     } // retranslateUi
 
 };

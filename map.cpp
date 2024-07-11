@@ -18,11 +18,37 @@ Map::Map(QWidget *parent)
     , ui(new Ui::Map)
 {
     ui->setupUi(this);
-    this->setFixedSize(1100,427);
-
+    this->setFixedSize(1133,432);
 }
 
 Map::~Map()
 {
     delete ui;
 }
+
+void Map::coordinateB(int x, int y)
+{
+    if(x<=7){
+        if(x%2==0){
+            x=(x%2)*70;
+        }
+        else{
+            x=40+((x%2)*70);
+        }
+        if(y%2==0){
+            y=(y%2)*70;
+        }
+        else{
+            y=30+((y%2)*70);
+        }
+        ui->pushButton->move(x,y);
+    }
+}
+
+void Map::on_pushButton_clicked()
+{
+    dialogformap= new Dialogformap(this);
+    connect(dialogformap,SIGNAL(setcoordinate(int,int)),this,SLOT(coordinateB(int,int)));
+    dialogformap->show();
+}
+

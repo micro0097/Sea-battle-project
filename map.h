@@ -2,7 +2,7 @@
 #define MAP_H
 
 #include <QMainWindow>
-
+#include "dialogformap.h"
 namespace Ui {
 class Map;
 }

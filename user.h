@@ -1,7 +1,9 @@
 #ifndef USER_H
 #define USER_H
 #include <QString>
-
+// #include <iostream>
+// using namespace std;
+#include <QChar>
 class user
 {
     QString username,firstname,lastname,password,email;
