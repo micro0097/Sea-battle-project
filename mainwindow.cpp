@@ -1,10 +1,10 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include <QtSql/QSqlDatabase>
-#include <QtSql/QSqlDriver>
-#include <QtSql/QSqlQuery>
-#include <QtSql/QSqlQueryModel>
-#include <QtSql/QSqlError>
+#include <QSqlDatabase>
+#include <QSqlDriver>
+#include <QSqlQuery>
+#include <QSqlQueryModel>
+#include <QSqlError>
 #include <QMessageBox>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
