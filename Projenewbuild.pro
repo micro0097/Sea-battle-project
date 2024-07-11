@@ -10,6 +10,7 @@ CONFIG += c++17
 
 SOURCES += \
     dialog.cpp \
+    dialogformap.cpp \
     main.cpp \
     mainwindow.cpp \
     map.cpp \
@@ -20,6 +21,7 @@ SOURCES += \
 
 HEADERS += \
     dialog.h \
+    dialogformap.h \
     mainwindow.h \
     map.h \
     menu.h \
@@ -29,6 +31,7 @@ HEADERS += \
 
 FORMS += \
     dialog.ui \
+    dialogformap.ui \
     mainwindow.ui \
     map.ui \
     menu.ui \

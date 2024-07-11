@@ -253,6 +253,7 @@ Makefile: ../../Projenewbuild.pro C:/Qt/6.8.0/mingw_64/mkspecs/win32-g++/qmake.c
 		../../Projenewbuild.pro \
 		C:/Qt/6.8.0/mingw_64/lib/Qt6Widgets.prl \
 		C:/Qt/6.8.0/mingw_64/lib/Qt6Gui.prl \
+		C:/Qt/6.8.0/mingw_64/lib/Qt6Sql.prl \
 		C:/Qt/6.8.0/mingw_64/lib/Qt6Core.prl \
 		C:/Qt/6.8.0/mingw_64/lib/Qt6EntryPoint.prl \
 		C:/Qt/6.8.0/mingw_64/mkspecs/features/build_pass.prf \
@@ -441,6 +442,7 @@ C:/Qt/6.8.0/mingw_64/mkspecs/features/lex.prf:
 ../../Projenewbuild.pro:
 C:/Qt/6.8.0/mingw_64/lib/Qt6Widgets.prl:
 C:/Qt/6.8.0/mingw_64/lib/Qt6Gui.prl:
+C:/Qt/6.8.0/mingw_64/lib/Qt6Sql.prl:
 C:/Qt/6.8.0/mingw_64/lib/Qt6Core.prl:
 C:/Qt/6.8.0/mingw_64/lib/Qt6EntryPoint.prl:
 C:/Qt/6.8.0/mingw_64/mkspecs/features/build_pass.prf:
