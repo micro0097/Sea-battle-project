@@ -18,11 +18,11 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
-    bool isValidUser(const QString& username, const QString& password);
+    // bool isValidUser(const QString& username, const QString& password);
     ~MainWindow();
 
-private slots:
-    void on_pushButton_4_clicked();
+// private slots:
+//     void on_pushButton_4_clicked();
 
 private:
     Sign *sign_up;

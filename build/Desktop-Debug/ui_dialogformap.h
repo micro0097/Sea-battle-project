@@ -39,7 +39,7 @@ public:
         if (Dialogformap->objectName().isEmpty())
             Dialogformap->setObjectName("Dialogformap");
         Dialogformap->resize(462, 264);
-        Dialogformap->setStyleSheet(QString::fromUtf8("background-image: url(:/new/prefix1/desk.jpg);"));
+        Dialogformap->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);"));
         buttonBox_2 = new QDialogButtonBox(Dialogformap);
         buttonBox_2->setObjectName("buttonBox_2");
         buttonBox_2->setGeometry(QRect(50, 220, 341, 32));

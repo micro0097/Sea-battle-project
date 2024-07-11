@@ -23,8 +23,8 @@ public:
     explicit Sign(QWidget *parent = nullptr);
     ~Sign();
 
-private slots:
-    void on_pushButton_clicked();
+// private slots:
+//     void on_pushButton_clicked();
 private:
     Menu *menu;
     user user;

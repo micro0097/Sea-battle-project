@@ -18,4 +18,5 @@ Dialogformap::~Dialogformap()
 void Dialogformap::on_buttonBox_2_accepted()
 {
     emit setcoordinate(ui->spinBox->value(),ui->spinBox_2->value());
+    this->close();
 }

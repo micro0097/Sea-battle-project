@@ -48,7 +48,7 @@ void Map::coordinateB(int x, int y)
 void Map::on_pushButton_clicked()
 {
     dialogformap= new Dialogformap(this);
-    connect(dialogformap,SIGNAL(setcoordinate(int,int)),this,SLOT(coordinateB(int,int)));
     dialogformap->show();
+    connect(dialogformap,SIGNAL(setcoordinate(int,int)),this,SLOT(coordinateB(int,int)));
 }
 
