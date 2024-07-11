@@ -15,13 +15,10 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     ui->lineEdit_3->setEchoMode(QLineEdit::Password);
     this->setFixedSize(881,600);
-    Sign *sign_up= new Sign();
+    sign_up= new Sign();
     connect(ui->pushButton_5,SIGNAL(clicked()),this,SLOT(close()));
     connect(ui->pushButton_5,SIGNAL(clicked()),sign_up,SLOT(show()));
-    Menu *menu= new Menu();
-    connect(ui->pushButton_4,SIGNAL(clicked()),this,SLOT(close()));
-    connect(ui->pushButton_4,SIGNAL(clicked()),menu,SLOT(show()));
-    Dialog *dialog= new Dialog;
+    dialog= new Dialog();
     connect(ui->pushButton_6,SIGNAL(clicked()),dialog,SLOT(show()));
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
     QString databasePath = QDir(QCoreApplication::applicationDirPath()).filePath("user.db");
@@ -51,13 +48,16 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_4_clicked()
 {
+
     QString _username, _password;
     _username = ui->lineEdit_4->text();
     _password = ui->lineEdit_3->text();
-
     if (isValidUser(_username, _password))
     {
         QMessageBox::information(this, "Login Successful", "Welcome, " + _username + "!");
+        menu= new Menu();
+        this->close();
+        menu->show();
     }
     else
     {

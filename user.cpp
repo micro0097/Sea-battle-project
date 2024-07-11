@@ -1,14 +1,11 @@
 #include "user.h"
 
-user::user(QString _username,QString _firstname, QString _lastname, QString _password,QString _email) {
-    this->username=_username;
-    this->firstname=_firstname;
-    this->lastname=_lastname;
-    this->password=_password;
-    this->email=_email;
+user::user() {
 }
 void user::setUsername(QString _username){
-    this->username=_username;
+    if(_username.indexOf("..")==-1 && _username.indexOf("__")==-1 && _username.indexOf("_.")==-1 && _username.indexOf("._")==-1 && _username[0].isLetter() && _username[_username.length()-1]!='.' && username[_username.length()-1]!='_'){
+       this->username=_username;
+    }
 }
 void user::setFirstname(QString _firstname){
     this->firstname=_firstname;

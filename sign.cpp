@@ -45,5 +45,9 @@ void Sign::on_pushButton_clicked()
     } else {
         qDebug() << "User inserted successfully";
     }
+    menu= new Menu();
+    this->close();
+    menu->show();
+
 }
 

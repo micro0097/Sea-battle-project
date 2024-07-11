@@ -1,13 +1,14 @@
 #ifndef USER_H
 #define USER_H
 #include <QString>
+
 class user
 {
     QString username,firstname,lastname,password,email;
 
 public:
 
-    user(QString _username,QString _firstname, QString _lastname, QString _password,QString _email);
+    user();
     void setUsername(QString);
     void setFirstname(QString);
     void setLastname(QString);

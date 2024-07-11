@@ -9,6 +9,7 @@
 #include <QSqlQueryModel>
 #include <QSqlError>
 #include <QMessageBox>
+#include "menu.h"
 namespace Ui {
 class Sign;
 }
@@ -23,7 +24,8 @@ public:
 
 private slots:
     void on_pushButton_clicked();
-
+private:
+    Menu *menu;
 private:
     Ui::Sign *ui;
 };

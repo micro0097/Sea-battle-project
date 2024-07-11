@@ -14,6 +14,7 @@ SOURCES += \
     mainwindow.cpp \
     map.cpp \
     menu.cpp \
+    shopping.cpp \
     sign.cpp \
     user.cpp
 
@@ -22,6 +23,7 @@ HEADERS += \
     mainwindow.h \
     map.h \
     menu.h \
+    shopping.h \
     sign.h \
     user.h
 
@@ -30,6 +32,7 @@ FORMS += \
     mainwindow.ui \
     map.ui \
     menu.ui \
+    shopping.ui \
     sign.ui
 
 # Default rules for deployment.
