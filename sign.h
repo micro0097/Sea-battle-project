@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QString>
+#include <QCryptographicHash>
 #include <QSqlDatabase>
 #include <QSqlDriver>
 #include <QSqlQuery>
@@ -10,6 +11,7 @@
 #include <QSqlError>
 #include <QMessageBox>
 #include "menu.h"
+#include "user.h"
 namespace Ui {
 class Sign;
 }
@@ -26,6 +28,8 @@ private slots:
     void on_pushButton_clicked();
 private:
     Menu *menu;
+    user user;
+    QString hashWithSHA256(const QString& input);
 private:
     Ui::Sign *ui;
 };

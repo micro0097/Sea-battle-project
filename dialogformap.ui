@@ -14,7 +14,7 @@
    <string>Dialog</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(:/new/prefix1/desk.jpg);</string>
+   <string notr="true">image: url(:/new/prefix1/desk.jpg);</string>
   </property>
   <widget class="QDialogButtonBox" name="buttonBox_2">
    <property name="geometry">
@@ -48,53 +48,18 @@
     </rect>
    </property>
    <property name="title">
-    <string>Please enter your ship coordinate :(Aval keshti madnazar ast.)</string>
+    <string>Please enter your ship :</string>
    </property>
-   <widget class="QWidget" name="horizontalLayoutWidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>20</y>
       <width>441</width>
-      <height>201</height>
+      <height>191</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QRadioButton" name="radioButton">
-       <property name="text">
-        <string>Horizenal</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="radioButton_2">
-       <property name="text">
-        <string>Vertical</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QSpinBox" name="spinBox">
-       <property name="minimum">
-        <number>1</number>
-       </property>
-       <property name="maximum">
-        <number>10</number>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QSpinBox" name="spinBox_2">
-       <property name="minimum">
-        <number>1</number>
-       </property>
-       <property name="maximum">
-        <number>10</number>
-       </property>
-      </widget>
-     </item>
-    </layout>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
    </widget>
   </widget>
  </widget>

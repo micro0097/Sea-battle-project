@@ -56,25 +56,29 @@ public:
         label = new QLabel(gridLayoutWidget);
         label->setObjectName("label");
         label->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
-"image: url(:/new/prefix1/desk.jpg);"));
+"image: url(:/new/prefix1/desk.jpg);\n"
+"color: rgb(255, 255, 255);"));
 
         gridLayout->addWidget(label, 0, 0, 1, 1);
 
         lineEdit_3 = new QLineEdit(gridLayoutWidget);
         lineEdit_3->setObjectName("lineEdit_3");
-        lineEdit_3->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
+        lineEdit_3->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
+"color: rgb(255, 255, 255);"));
 
         gridLayout->addWidget(lineEdit_3, 0, 1, 1, 1);
 
         label_4 = new QLabel(gridLayoutWidget);
         label_4->setObjectName("label_4");
-        label_4->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);"));
+        label_4->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);\n"
+"color: rgb(255, 255, 255);"));
 
         gridLayout->addWidget(label_4, 3, 0, 1, 1);
 
         label_3 = new QLabel(gridLayoutWidget);
         label_3->setObjectName("label_3");
-        label_3->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);"));
+        label_3->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);\n"
+"color: rgb(255, 255, 255);"));
 
         gridLayout->addWidget(label_3, 2, 0, 1, 1);
 
@@ -87,33 +91,40 @@ public:
 
         label_2 = new QLabel(gridLayoutWidget);
         label_2->setObjectName("label_2");
-        label_2->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);"));
+        label_2->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);\n"
+"color: rgb(255, 255, 255);"));
 
         gridLayout->addWidget(label_2, 1, 0, 1, 1);
 
         lineEdit_4 = new QLineEdit(gridLayoutWidget);
         lineEdit_4->setObjectName("lineEdit_4");
+        lineEdit_4->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+""));
 
         gridLayout->addWidget(lineEdit_4, 2, 1, 1, 1);
 
         lineEdit_5 = new QLineEdit(gridLayoutWidget);
         lineEdit_5->setObjectName("lineEdit_5");
+        lineEdit_5->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
 
         gridLayout->addWidget(lineEdit_5, 3, 1, 1, 1);
 
         label_5 = new QLabel(gridLayoutWidget);
         label_5->setObjectName("label_5");
-        label_5->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);"));
+        label_5->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);\n"
+"color: rgb(255, 255, 255);"));
 
         gridLayout->addWidget(label_5, 4, 0, 1, 1);
 
         lineEdit_6 = new QLineEdit(gridLayoutWidget);
         lineEdit_6->setObjectName("lineEdit_6");
+        lineEdit_6->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
 
         gridLayout->addWidget(lineEdit_6, 4, 1, 1, 1);
 
         lineEdit = new QLineEdit(gridLayoutWidget);
         lineEdit->setObjectName("lineEdit");
+        lineEdit->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
 
         gridLayout->addWidget(lineEdit, 1, 1, 1, 1);
 

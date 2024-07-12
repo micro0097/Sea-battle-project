@@ -6,6 +6,8 @@ Shopping::Shopping(QWidget *parent)
     , ui(new Ui::Shopping)
 {
     ui->setupUi(this);
+    this->setFixedSize(1133,432);
+    // ui->pushButton_2->setGeometry(Map);
 }
 
 Shopping::~Shopping()

@@ -1,4 +1,6 @@
+release/arsenals.o
 release/dialog.o
+release/dialogformap.o
 release/main.o
 release/mainwindow.o
 release/map.o
@@ -8,6 +10,7 @@ release/sign.o
 release/user.o
 release/qrc_Resorce.o
 release/moc_dialog.o
+release/moc_dialogformap.o
 release/moc_mainwindow.o
 release/moc_map.o
 release/moc_menu.o

@@ -52,48 +52,57 @@ public:
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
         label_4 = new QLabel(gridLayoutWidget_2);
         label_4->setObjectName("label_4");
-        label_4->setStyleSheet(QString::fromUtf8("background-image: url(:/new/prefix1/desk.jpg);"));
+        label_4->setStyleSheet(QString::fromUtf8("background-image: url(:/new/prefix1/desk.jpg);\n"
+"color: rgb(255, 255, 255);"));
 
         gridLayout_2->addWidget(label_4, 0, 0, 1, 1);
 
         lineEdit_3 = new QLineEdit(gridLayoutWidget_2);
         lineEdit_3->setObjectName("lineEdit_3");
+        lineEdit_3->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);\n"
+""));
 
         gridLayout_2->addWidget(lineEdit_3, 1, 1, 1, 1);
 
         lineEdit_4 = new QLineEdit(gridLayoutWidget_2);
         lineEdit_4->setObjectName("lineEdit_4");
+        lineEdit_4->setStyleSheet(QString::fromUtf8("color: rgb(255, 255, 255);"));
 
         gridLayout_2->addWidget(lineEdit_4, 0, 1, 1, 1);
 
         pushButton_4 = new QPushButton(gridLayoutWidget_2);
         pushButton_4->setObjectName("pushButton_4");
         pushButton_4->setStyleSheet(QString::fromUtf8("background-image: url(:/new/prefix1/desk.jpg);\n"
-"image: url(:/new/prefix1/desk.jpg);"));
+"image: url(:/new/prefix1/desk.jpg);\n"
+"color: rgb(255, 255, 255);"));
 
         gridLayout_2->addWidget(pushButton_4, 2, 1, 1, 1);
 
         pushButton_5 = new QPushButton(gridLayoutWidget_2);
         pushButton_5->setObjectName("pushButton_5");
-        pushButton_5->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);"));
+        pushButton_5->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);\n"
+"color: rgb(255, 255, 255);"));
 
         gridLayout_2->addWidget(pushButton_5, 3, 1, 1, 1);
 
         label_5 = new QLabel(gridLayoutWidget_2);
         label_5->setObjectName("label_5");
-        label_5->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);"));
+        label_5->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);\n"
+"color: rgb(255, 255, 255);"));
 
         gridLayout_2->addWidget(label_5, 3, 0, 1, 1);
 
         pushButton_6 = new QPushButton(gridLayoutWidget_2);
         pushButton_6->setObjectName("pushButton_6");
-        pushButton_6->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);"));
+        pushButton_6->setStyleSheet(QString::fromUtf8("image: url(:/new/prefix1/desk.jpg);\n"
+"color: rgb(255, 255, 255);"));
 
         gridLayout_2->addWidget(pushButton_6, 2, 0, 1, 1);
 
         label_6 = new QLabel(gridLayoutWidget_2);
         label_6->setObjectName("label_6");
         label_6->setStyleSheet(QString::fromUtf8("background-image: url(:/new/prefix1/desk.jpg);\n"
+"color: rgb(255, 255, 255);\n"
 ""));
 
         gridLayout_2->addWidget(label_6, 1, 0, 1, 1);

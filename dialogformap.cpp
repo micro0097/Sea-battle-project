@@ -15,7 +15,7 @@ Dialogformap::~Dialogformap()
     delete ui;
 }
 
-void Dialogformap::on_buttonBox_accepted()
+void Dialogformap::on_buttonBox_2_rejected()
 {
-    emit setcoordinate(ui->spinBox->value(),ui->spinBox_2->value());
+    this->close();
 }

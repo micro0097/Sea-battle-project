@@ -9,6 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    arsenals.cpp \
     dialog.cpp \
     dialogformap.cpp \
     main.cpp \
@@ -20,6 +21,7 @@ SOURCES += \
     user.cpp
 
 HEADERS += \
+    arsenals.h \
     dialog.h \
     dialogformap.h \
     mainwindow.h \

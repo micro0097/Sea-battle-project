@@ -2,12 +2,12 @@
 #define SHOPPING_H
 
 #include <QWidget>
-
+#include "map.h"
 namespace Ui {
 class Shopping;
 }
 
-class Shopping : public QWidget
+class Shopping :public QWidget
 {
     Q_OBJECT
 

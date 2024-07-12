@@ -8,12 +8,16 @@
 #include <QMessageBox>
 #include <QDir>
 #include <QCoreApplication>
+#include <QPushButton>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
     ui->lineEdit_3->setEchoMode(QLineEdit::Password);
+    QPushButton *temp = new QPushButton();
+    QPushButton *temp2 = new QPushButton();
+    temp=temp2;
     this->setFixedSize(881,600);
     sign_up= new Sign();
     connect(ui->pushButton_5,SIGNAL(clicked()),this,SLOT(close()));

@@ -15,11 +15,13 @@ public:
     explicit Dialogformap(QWidget *parent = nullptr);
     ~Dialogformap();
 
-private slots:
-    void on_buttonBox_accepted();
+// private slots:
+//     void on_buttonBox_2_accepted();
 
-signals:
-    void setcoordinate(int,int);
+    void on_buttonBox_2_rejected();
+
+// signals:
+//     void setcoordinate(int,int);
 private:
     Ui::Dialogformap *ui;
 };
